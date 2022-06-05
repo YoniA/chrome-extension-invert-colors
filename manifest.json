@@ -1,0 +1,23 @@
+{
+    "name": "Invert colors",
+    "description": "Invert page colors, to reduce eye strain in low light conditions",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/day-and-night16.png",
+            "32": "/images/day-and-night32.png",
+            "128": "/images/day-and-night128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/day-and-night16.png",
+        "32": "/images/day-and-night32.png",
+        "128": "/images/day-and-night128.png"
+    }
+  }
