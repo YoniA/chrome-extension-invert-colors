@@ -35,7 +35,3 @@ changeColor.addEventListener("click", async () => {
   // function toggleButtonColor() {
 
   // }
-
-
-  // add freepik attribution if publishing
-  // <a href="https://www.flaticon.com/free-icons/night" title="night icons">Night icons created by Freepik - Flaticon</a>
