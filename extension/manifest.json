@@ -6,7 +6,8 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["tabs", "activeTab", "scripting", "storage"],
+    "devtools_page": "devtools.html",
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
